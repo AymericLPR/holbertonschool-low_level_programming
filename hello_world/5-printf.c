@@ -2,7 +2,7 @@
 
 /**
  * main - description pour main
- * Return: Always 0 (Success)
+ * Return: 0 work without error
  */
 int main(void)
 {
