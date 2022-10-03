@@ -10,12 +10,12 @@ int main(void)
 int alpha = 97;
 while (alpha < 123)
 {
-if (alpha == 100 || alpha == 112)
+if (alpha == 101 || alpha == 113)
 {
-putchar(alpha);
-alpha+=2;
+alpha++;
+continue;
 }
-if (alpha > 96)
+else
 {
 putchar(alpha);
 alpha++;
