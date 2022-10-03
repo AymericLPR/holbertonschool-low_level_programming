@@ -11,7 +11,7 @@ int alpha = 97;
 while (alpha < 123)
 {
 putchar(alpha);
-alpha++
+alpha++;
 }
 putchar('\n');
 return (0);
