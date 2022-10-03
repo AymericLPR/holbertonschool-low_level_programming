@@ -12,6 +12,6 @@ while (alpha < 123)
 {
 putchar(alpha);
 }
-putchar("\n");
+putchar('\n');
 return (0);
 }
