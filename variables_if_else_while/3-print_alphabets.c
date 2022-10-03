@@ -11,7 +11,7 @@ int main(void)
 int alpha = 97;
 while (alpha != 91)
 {
-if (alpha > 97 && alpha < 123)
+if (alpha > 96 && alpha < 123)
 {
 putchar(alpha);
 alpha++;
@@ -28,5 +28,5 @@ if (alpha == 91)
 putchar('\n');
 }
 }
-return(0);
+return (0);
 }
