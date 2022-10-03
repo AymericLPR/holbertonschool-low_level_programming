@@ -15,14 +15,14 @@ putchar(alpha);
 alpha++;
 }
 if (alpha == 100)
-alpha = 102
+alpha = 102;
 if (alpha > 101 && alpha < 111)
 {
 putchar(alpha);
 alpha++;
 }
 if (alpha == 111)
-alpha = 113
+alpha = 113;
 if (alpha > 112)
 {
 putchar(alpha);
