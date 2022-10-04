@@ -14,9 +14,9 @@ putchar(',');
 putchar(' ');
 number++;
 }
-if (number ==57)
+if (number == 57)
 {
-putchar(number, '\n');
+putchar(number);
 }
 return (0);
 }
