@@ -16,8 +16,7 @@ number++;
 }
 if (number ==57)
 {
-putchar(number);
+putchar(number, '\n');
 }
-putchar('\n');
 return (0);
 }
