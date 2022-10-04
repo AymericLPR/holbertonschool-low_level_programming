@@ -4,7 +4,7 @@
  * main - Entry point
  * Return: Always 0 (Success)
  */
-int main(void)
+void print_alphabet(void);
 {
 int alpha = 97;
 while (alpha < 123)
