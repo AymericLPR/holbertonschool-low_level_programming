@@ -16,4 +16,3 @@ number++;
 putchar('\n');
 return (0);
 }
-    
