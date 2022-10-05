@@ -10,5 +10,5 @@ if (av < 0)
 {
 av = (-1) * av;
 }
-return (0);
+return (av);
 }
