@@ -5,27 +5,27 @@
  */
 void times_table(void)
 {
-int x = 48;
-int y = 48;
+int x = 0;
+int y = 0;
 int z;
 
-while (y != 57 || x != 57)
+while (y != 9 || x != 9)
 {
-if (x != 57)
+if (x != 9)
 {
 z = x * y;  
-_putchar(z);
+_putchar(z + '0');
 _putchar(',');
 _putchar(' ');
-x++;
+x = x + 1;
 }
 else
 {
 z = x * y;
-_putchar(z);
+_putchar(z + '0');
 _putchar('\n');
-x = 48;
-y++;
+x = 0;
+y = y + 1;
 }
 }
 }
