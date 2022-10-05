@@ -11,18 +11,17 @@ int z;
 
 while (y != 9 || x != 9)
 {
-if (x != 9)
-{
-z = x * y;  
+z = x * y;
 _putchar(z + '0');
+_putchar((z % 10) + '0');
+if (x != 9)
+{  
 _putchar(',');
 _putchar(' ');
 x = x + 1;
 }
 else
 {
-z = x * y;
-_putchar(z + '0');
 _putchar('\n');
 x = 0;
 y = y + 1;
