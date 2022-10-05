@@ -17,7 +17,7 @@ z = x * y;
 _putchar(z);
 _putchar(',');
 _putchar(' ');
-x + 1;
+x = x + 1;
 }
 else
 {
@@ -25,7 +25,7 @@ z = x * y;
 _putchar(z);
 _putchar('\n');
 x = 0;
-y + 1;
+y = y + 1;
 }
 }
 }
