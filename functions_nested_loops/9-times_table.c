@@ -13,7 +13,7 @@ while (y != 57 || x != 57)
 {
 if (x != 57)
 {
-z = x *y;  
+z = x * y;  
 _putchar(z);
 _putchar(',');
 _putchar(' ');
@@ -21,7 +21,7 @@ x++;
 }
 else
 {
-z = x *y;
+z = x * y;
 _putchar(z);
 _putchar('\n');
 x = 48;
