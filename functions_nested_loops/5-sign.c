@@ -2,7 +2,7 @@
 /**
  * print_sign - Entry point
  * Return: 0 (Success)
- * @c: variable not a letter
+ * @n: variable not a letter
  */
 int print_sign(int n)
 {
@@ -13,8 +13,8 @@ return (-1);
 }
 else if (n == 0)
 {
-_putchar(0);
- return (0);
+_putchar('0');
+return (0);
 }
 else
 {
