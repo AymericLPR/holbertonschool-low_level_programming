@@ -12,10 +12,16 @@ int z;
 while (y <= 9 && x <= 9)
 {
 z = x * y;
-_putchar(z + '0');
 if (z <= 9)
 {
-_putchar((z % 10) + '0');
+_putchar(z + '0');
+}
+else
+{
+z = (((z - (z % 10)) / 10) + '0');
+_putchar(z);
+z = x * y;
+_putchar((z % 10) + '0'); 
 }
 if (x != 9)
 {
