@@ -9,7 +9,7 @@ int dh = '0';
 int h = '0';
 int dm = '0';
 int m = '0';
-while (dh != '2' && h != '4')
+while (dh != '2' || h != '4')
 {
 _putchar(dh);
 _putchar(h);
