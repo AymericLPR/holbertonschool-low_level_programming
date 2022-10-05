@@ -19,25 +19,25 @@ _putchar(m);
 _putchar('\n');
 if (h == '9' && dm == '5' && m == '9')
 {
-dh = dh+1;
+dh = dh + 1;
 h = '0';
 dm = '0';
 m = '0';
 }
 else if (dm == '5' && m == '9')
 {
-h = h+1;
+h = h + 1;
 dm = '0';
 m = '0';
 }
 else if (m == '9')
 {
-dm = dm+1;
+dm = dm + 1;
 m = '0';
 }
 else
 {
-m = m+1;
+m = m + 1;
 }
 }
 }
