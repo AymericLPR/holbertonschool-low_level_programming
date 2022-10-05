@@ -13,7 +13,10 @@ while (y <= 9 && x <= 9)
 {
 z = x * y;
 _putchar(z + '0');
+if (z <= 9)
+{
 _putchar((z % 10) + '0');
+}
 if (x != 9)
 {
 _putchar(',');
