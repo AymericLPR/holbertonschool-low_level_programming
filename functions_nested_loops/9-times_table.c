@@ -24,7 +24,7 @@ else
 z = x *y;
 _putchar(z);
 _putchar('\n');
-x = 57;
+x = 48;
 y++;
 }
 }
