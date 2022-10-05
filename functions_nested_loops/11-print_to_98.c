@@ -28,7 +28,7 @@ else if (n > 98)
 {
 while (n != 97)
 {
-if (n >=100)
+if (n >= 100)
 {
 _putchar(n / 100);
 _putchar(n / 10);
