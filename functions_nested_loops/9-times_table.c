@@ -21,13 +21,13 @@ if (x != 9)
 {
 _putchar(',');
 _putchar(' ');
-x = x + 1;
+x++;
 }
 else
 {
 _putchar('\n');
 x = 0;
-y = y + 1;
+y++;
 }
 }
 }
