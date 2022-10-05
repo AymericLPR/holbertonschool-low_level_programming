@@ -5,12 +5,11 @@
  */
 void jack_bauer(void)
 {
-int dh = 0;
-int h = 0;
-int dm = 0;
-int m = 0;
-
-while (dh != 2 && h != 4)
+int dh = '0';
+int h = '0';
+int dm = '0';
+int m = '0';
+while (dh != '2' && h != '4')
 {
 _putchar(dh);
 _putchar(h);
@@ -18,27 +17,27 @@ _putchar(':');
 _putchar(dm);
 _putchar(m);
 _putchar('\n');
-if (h == 9 && dm == 5 && m == 9)
+if (h == '9' && dm == '5' && m == '9')
 {
-dh++;
-h = 0;
-dm = 0;
-m = 0;
+dh = dh+1;
+h = '0';
+dm = '0';
+m = '0';
 }
-else if (dm == 5 && m == 9)
+else if (dm == '5' && m == '9')
 {
-h++;
-dm = 0;
-m = 0;
+h = h+1;
+dm = '0';
+m = '0';
 }
-else if (m == 9)
+else if (m == '9')
 {
-dm++;
-m = 0;
+dm = dm+1;
+m = '0';
 }
 else
 {
-m++;
+m = m+1;
 }
 }
 }
