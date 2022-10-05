@@ -12,7 +12,11 @@ int z;
 while (y <= 9 && x <= 9)
 {
 z = x * y;
-if (z <= 9)
+if (x == 0)
+{
+_putchar(z + '0');
+}
+else if (z <= 9)
 {
 _putchar(' ');
 _putchar(z + '0');
