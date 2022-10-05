@@ -14,6 +14,7 @@ while (y <= 9 && x <= 9)
 z = x * y;
 if (z <= 9)
 {
+_putchar(' ');
 _putchar(z + '0');
 }
 else
@@ -21,7 +22,7 @@ else
 z = (((z - (z % 10)) / 10) + '0');
 _putchar(z);
 z = x * y;
-_putchar((z % 10) + '0'); 
+_putchar((z % 10) + '0');
 }
 if (x != 9)
 {
