@@ -6,9 +6,9 @@
  */
 void print_to_98(int n)
 {
-if (n < 98)
+if ((n < 98) + '0')
 {
-while (n != 99)
+while ((n != 99) +'0')
 {
 _putchar(n);
 _putchar(',');
@@ -16,9 +16,9 @@ _putchar(' ');
 n++;
 }
 }
-else if (n > 98)
+else if ((n > 98) + '0')
 {
-while (n != 97)
+while ((n != 97) + '0')
 {
 _putchar(n);
 _putchar(',');
@@ -31,4 +31,5 @@ else
 _putchar('9');
 _putchar('8');
 }
+_putchar('\n'); 
 }
