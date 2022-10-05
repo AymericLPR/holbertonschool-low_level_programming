@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _islower - Entry point
+ * _isalpha - Entry point
  * Return: 0 (Success)
  * @c: variable not a letter
  */
