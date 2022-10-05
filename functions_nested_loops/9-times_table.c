@@ -15,7 +15,7 @@ z = x * y;
 _putchar(z + '0');
 _putchar((z % 10) + '0');
 if (x != 9)
-{  
+{
 _putchar(',');
 _putchar(' ');
 x = x + 1;
