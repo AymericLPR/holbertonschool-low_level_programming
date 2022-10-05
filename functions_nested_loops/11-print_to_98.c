@@ -12,7 +12,7 @@ while (n != 99)
 {
 if (n <= 9)
 {
-_putchar(n)
+_putchar(n);
 }
 else
 {
