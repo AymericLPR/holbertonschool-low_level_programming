@@ -9,7 +9,7 @@ int x = 0;
 int y = 0;
 int z;
 
-while (y != 9 || x != 9)
+while (y =< 9 && x =< 9)
 {
 z = x * y;
 _putchar(z + '0');
