@@ -2,6 +2,7 @@
 /**
  * _islower - Entry point
  * Return: 0 (Success)
+ * c: variable not a letter
  */
 int _islower(int c)
 {
