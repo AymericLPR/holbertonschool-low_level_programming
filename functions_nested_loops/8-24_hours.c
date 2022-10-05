@@ -18,20 +18,20 @@ _putchar(':');
 _putchar(dm);
 _putchar(m);
 _putchar('\n');
-if (h = 9 && dm = 5 && m = 9)
+if (h == 9 && dm == 5 && m == 9)
 {
 dh++;
 h = 0;
 dm = 0;
 m = 0;
 }
-else if (dm = 5 && m = 9)
+else if (dm == 5 && m == 9)
 {
 h++;
 dm = 0;
 m = 0;
 }
-else if (m = 9)
+else if (m == 9)
 {
 dm++;
 m = 0;
