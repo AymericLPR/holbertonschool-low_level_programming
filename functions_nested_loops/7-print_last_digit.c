@@ -4,7 +4,7 @@
  * Return: 0 (Success)
  * @ld: last digit
  */
-int print_last_digit(int ld);
+int print_last_digit(int ld)
 {
 int n;
 if (ld % 10 > 0)
