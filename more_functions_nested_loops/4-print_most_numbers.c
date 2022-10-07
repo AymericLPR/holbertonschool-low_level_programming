@@ -5,18 +5,18 @@
  */
 void print_most_numbers(void)
 {
-int alpha = 97;
-while (alpha < 123)
+int number = 48;
+while (number < 58)
 {
-if (alpha == 101 || alpha == 113)
+if (number == 50 || number == 52)
 {
-alpha++;
+number++;
 continue;
 }
 else
 {
-_putchar(alpha);
-alpha++;
+_putchar(number);
+number++;
 }
 }
 _putchar('\n');
