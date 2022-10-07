@@ -15,10 +15,9 @@ continue;
 }
 else
 {
-putchar(alpha);
+_putchar(alpha);
 alpha++;
 }
 }
-putchar('\n');
-return (0);
+_putchar('\n');
 }
