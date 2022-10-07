@@ -2,7 +2,6 @@
 /**
  * print_numbers - Entry point
  * Return: 0 (Success)
- * @n: number
  */
 void print_numbers(void)
 {
