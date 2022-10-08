@@ -8,7 +8,7 @@
 int main(void)
 {
 int n = 2;
-printfx("1");
+printf("1");
 
 while ( n < 101)
 {
