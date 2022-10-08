@@ -7,7 +7,9 @@
  */
 int main(void)
 {
-int n = 1;
+int n = 2;
+putchar("1");
+
 while ( n < 101)
 {
 if ((n % 3 == 0) && (n % 5 == 0))
