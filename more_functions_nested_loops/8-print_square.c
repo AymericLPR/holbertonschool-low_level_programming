@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_diagonal - Entry point
- * @n: number
+ * @size: number
  * Return: none
  */
 void print_square(int size)
