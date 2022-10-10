@@ -8,5 +8,12 @@
 
 void _puts(char *str)
 {
-char str[7] = "stdout";
+int x;
+x = 0;
+while (str[x] != '\0')
+{
+x++;
+}
+_putchar(str);
+_putchar('\n');
 }
