@@ -13,7 +13,6 @@ int i;
 i = 0;
 while (src[i] != '\0')
 {
-_putchar(src[i]);
 dest[i] = src[i];
 i++;
 }
