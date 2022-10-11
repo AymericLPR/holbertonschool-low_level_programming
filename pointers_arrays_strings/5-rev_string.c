@@ -19,7 +19,7 @@ return (i);
 
 /**
  * rev_string - Entry point
- * @s: number 
+ * @s: number
  * Return: Always 0
  */
 
