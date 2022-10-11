@@ -17,7 +17,7 @@ return (i);
 }
 
 /**
- * swap_int - Entry point
+ * rev_string - Entry point
  * @s: number 
  * Return: Always 0
  */
@@ -25,8 +25,13 @@ return (i);
 void rev_string(char *s)
 {
 int x;
+int n;
+x = 0;
+n = (i - x);
 
-x = *a;
-*a = *b;
-*b = x;
+while (n != 0)
+{
+x++;
+_putchar(s[n]);
+}
 }
