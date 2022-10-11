@@ -1,21 +1,32 @@
 #include "main.h"
 
 /**
- * rev_string - Entry point
+ * _strlen - Entry point
  * @s: charater
+ * Return: Always 0
+ */
+int _strlen(char *s)
+{
+int i;
+i = 0;
+while (s[i] != '\0')
+{
+i++;
+}
+return (i);
+}
+
+/**
+ * swap_int - Entry point
+ * @s: number 
  * Return: Always 0
  */
 
 void rev_string(char *s)
 {
-int i;
-for (i = 0; s[i] != '\0'; i++)
-{
-_putchar(s[i]);
-}
-_putchar('\n');
-for (i = i - 1; s[i] != '\0'; i--)
-{
-_putchar(s[i]);
-}
+int x;
+
+x = *a;
+*a = *b;
+*b = x;
 }
