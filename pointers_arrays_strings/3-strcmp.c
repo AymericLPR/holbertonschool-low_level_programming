@@ -10,7 +10,7 @@ int _strcmp(char *s1, char *s2)
 {
 int x;
 
-while(s1[i] == s2[i])
-i++;
-return (s1[i] - s2[i]);
+while(s1[x] == s2[x])
+x++;
+return (s1[x] - s2[x]);
 }
