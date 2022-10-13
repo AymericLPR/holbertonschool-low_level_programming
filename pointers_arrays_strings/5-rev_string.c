@@ -30,10 +30,10 @@ x = 0;
 n = (_strlen(s) - 1);
 while (x < n)
 {
-x++;
 tmp = s[x];
 s[x] = s[n];
 s[n] = tmp;
 n--;
+x++;
 }
 }
