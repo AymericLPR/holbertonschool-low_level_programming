@@ -5,7 +5,6 @@
  * @s: number
  * Return: Always 0
  */
-
 int _strlen(char *s)
 {
 int i;
@@ -22,14 +21,13 @@ return (i);
  * @s: number
  * Return: Always 0
  */
-
 void rev_string(char *s)
 {
 int x;
 int n;
+int tmp;
 x = 0;
 n = (_strlen(s) - 1);
-
 while (x < n)
 {
 x++;
