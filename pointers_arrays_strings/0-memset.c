@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * swap_int - Entry point
+ * *_memset - Entry point
  * @b: character
  * @n: number
  * @s: pointer
