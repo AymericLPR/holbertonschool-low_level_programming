@@ -20,10 +20,10 @@ if (s[i] == accept[n])
 {
 break;
 }
+}
 if (accept[n] == '\0')
 {
 break;
-}
 }
 }
 return (i);
