@@ -2,7 +2,7 @@
 
 /**
  * swap_int - Entry point
- * @a: character
+ * @b: character
  * @n: number
  * @s: pointer
  * Return: Always 0
