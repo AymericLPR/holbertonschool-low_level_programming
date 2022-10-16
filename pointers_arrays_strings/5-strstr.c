@@ -22,7 +22,7 @@ for (n = 0; haystack[i] == needle[n]; i++, n++)
 {
 if (needle[n] == '\0')
 {
-return (haystack + i - j);
+return (haystack + i - n);
 }
 }
 }
