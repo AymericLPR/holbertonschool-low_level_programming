@@ -19,11 +19,10 @@ for (i = 0; haystack[i]; ++i)
 if (haystack[i] == needle[0])
 {
 for (n = 0; haystack[i] == needle[n]; i++, n++)
-{
+;
 if (needle[n] == '\0')
 {
 return (haystack + i - n);
-}
 }
 }
 }
