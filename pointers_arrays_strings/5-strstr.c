@@ -14,7 +14,7 @@ if (*needle == '\0')
 {
 return (haystack);
 }
-for (i = 0; haystack[i]; i++)
+for (i = 0; haystack[i]; ++i)
 {
 if (haystack[i] == needle[0])
 {
