@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _sqrt_recursion - Entry point
+ * _natural_square - Entry point
  * @n: number
  * @i: number
  * Return: Always 0
  */
 
-int _sqrt_recursion(int n)
+int _natural_square(int n, int i)
 {
 if (i * i == n)
 {
@@ -17,5 +17,16 @@ else
 {
 return (-1);
 }
-return (_sqrt_recursion(n, i));
+return (_natural_square(n, i + 1));
+}
+
+/**
+ * _sqrt_recursion - Entry point
+ * @n: number
+ * Return: Always 0
+ */
+
+int _sqrt_recursion(int n)
+{
+return (_natural_square(n, 1));
 }
