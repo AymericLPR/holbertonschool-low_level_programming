@@ -13,7 +13,7 @@ if (i * i == n)
 {
 return (i);
 }
-else
+if (i * i > n)
 {
 return (-1);
 }
