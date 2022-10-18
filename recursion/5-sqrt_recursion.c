@@ -7,7 +7,7 @@
  * Return: Always 0
  */
 
-int _sqrt_recursion(int n);
+int _sqrt_recursion(int n)
 {
 if (i * i == n)
 {
