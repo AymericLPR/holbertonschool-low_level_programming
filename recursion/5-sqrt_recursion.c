@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * find_root - Entry point
+ * _sqrt_recursion - Entry point
  * @n: number
  * @i: number
  * Return: Always 0
  */
 
-int find_root(int n, int i)
+int _sqrt_recursion(int n);
 {
 if (i * i == n)
 {
@@ -17,5 +17,5 @@ else
 {
 return (-1);
 }
- return (find_root(n, i + 1));
+return (_sqrt_recursion(n, i));
 }
