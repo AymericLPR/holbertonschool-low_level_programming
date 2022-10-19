@@ -11,9 +11,12 @@
 int main(int argc, char *argv[])
 {
 int i;
+int a = argv[1];
+int b = argv[2];
+
 if (argc == 3)
 {
-i = (argv[1]) * (argv[2]);
+i = a * b;
 printf("%d\n", i);
 return (0);
 }
