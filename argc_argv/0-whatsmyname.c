@@ -8,7 +8,7 @@
  * Return: Always 0
  */
 
-int main(int argc, argv[])
+int main(int argc, int argv[])
 {
 int i;
 for (i = 0; i > argc; i++)
