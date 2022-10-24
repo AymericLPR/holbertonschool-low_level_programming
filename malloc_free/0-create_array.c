@@ -18,10 +18,10 @@ if (p == NULL)
 {
 return (NULL);
 }
-for(i = 0; i < size; i++)
+for (i = 0; i < size; i++)
 {
 p[i] = c;
 }
 p[i] = '\0';
-return p;
+ return (p);
 }
