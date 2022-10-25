@@ -19,7 +19,7 @@ for (i = 0; str[i] != '\0'; i++)
 {
 }
 size = i;
-z = malloc((size * sizeof(char)) + 1);
+z = malloc((sizeof(char) * size) + 1);
 if (z == NULL)
 {
 return (NULL);
