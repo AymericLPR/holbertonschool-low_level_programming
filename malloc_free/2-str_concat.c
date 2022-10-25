@@ -22,7 +22,7 @@ while (s2[x] != '\0')
 {
 ++x;
 }
-z = malloc(sizeof(char) * (i + x) + 1);
+c = malloc(sizeof(char) * (i + x) + 1);
 if (c == NULL)
 return (NULL);
 while (y < i)
