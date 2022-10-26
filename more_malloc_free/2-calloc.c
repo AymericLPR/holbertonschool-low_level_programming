@@ -20,6 +20,6 @@ c = malloc(nmemb * size);
 if (c == NULL)
 return (NULL);
 for (i = 0; i < size * nmemb; ++i)
-(c + i) = 0;
+*(c + i) = 0;
 return (c);
 }
