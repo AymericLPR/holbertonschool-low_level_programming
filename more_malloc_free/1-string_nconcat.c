@@ -37,7 +37,7 @@ y++;
 while (z < (x + 1))
 {
 c[y] = s2[z];
-y++, z++;
+y++, ++z;
 }
 return (c);
 }
