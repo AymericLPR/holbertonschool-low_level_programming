@@ -34,10 +34,10 @@ while (y < i)
 c[y] = s1[y];
 y++;
 }
-while (z < (x + 1))
+while (z <= x)
 {
 c[y] = s2[z];
-y++, ++z;
+y++, z++;
 }
 return (c);
 }
