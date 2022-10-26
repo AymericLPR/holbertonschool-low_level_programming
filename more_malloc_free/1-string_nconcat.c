@@ -26,7 +26,7 @@ if (n > x)
 n = x;
 else
 x = n;
-c = malloc(sizeof(char) * ((i + x) + 1));
+c = malloc(sizeof(char) * ((i + x) +1));
 if (c == NULL)
 return (NULL);
 while (y < i)
@@ -34,7 +34,7 @@ while (y < i)
 c[y] = s1[y];
 y++;
 }
-while (z < x)
+while (z < (x + 1))
 {
 c[y] = s2[z];
 y++, z++;
