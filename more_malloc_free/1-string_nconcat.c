@@ -34,7 +34,7 @@ while (y < i)
 c[y] = s1[y];
 y++;
 }
-while (z <= c)
+while (z =< c)
 {
 c[y] = s2[z];
 y++, z++;
