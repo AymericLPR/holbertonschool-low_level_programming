@@ -1,23 +1,36 @@
 #include "variadic_functions.h"
 #include <stdarg.h>
+#include <stdio.h>
 
 /**
- *sum_them_all - Entry point
+ *print_numbers - Entry point
  *@n: number
+ *@separator: string
  *Return: Always 0.
  */
 
-int sum_them_all(const unsigned int n, ...)
+void print_numbers(const char *separator, const unsigned int n, ...)
 {
 unsigned int i;
-int sum = 0;
+int list = 0;
 va_list aptr;
 
 if (n == 0)
-return (0);
+{
+printf("\n");
+return;
+}
 va_start(aptr, n);
 for (i = 0; i < n; i++)
-sum += va_arg(aptr, int);
+{
+list = va_arg(aptr, int);
+if (i == (n - 1))
+printf("%d", list);
+else if (separator == NULL)
+printf("%d", list);
+else
+printf("%d%s", list, separator);
+}
 va_end(aptr);
-return (sum);
+printf("\n");
 }
