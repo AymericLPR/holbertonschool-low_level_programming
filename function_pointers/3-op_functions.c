@@ -6,7 +6,7 @@
  * op_add - addition
  * @a: first number
  * @b: second number
- * Retur: Always 0.
+ * Return: Always 0.
  */
 
 int op_add(int a, int b)
