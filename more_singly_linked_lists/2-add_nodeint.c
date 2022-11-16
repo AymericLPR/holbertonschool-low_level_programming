@@ -3,7 +3,7 @@
 /**
  * add_nodeint - add a node
  * @head: head
- * @str: string
+ * @n: node
  * Return: Always 0.
  */
 
