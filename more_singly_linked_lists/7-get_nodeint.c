@@ -3,7 +3,7 @@
 /**
  * get_nodeint_at_index - Entry point
  * @head: head
- * @index: index 
+ * @index: index
  * Return: Always 0.
  */
 
