@@ -2,7 +2,7 @@
 
 /**
  *insert_dnodeint_at_index - inserts a new node in a linked listat index pos
- *@head: pointer head
+ *@h: pointer head
  *@idx: index
  *@n: data
  *Return: Always 0.
