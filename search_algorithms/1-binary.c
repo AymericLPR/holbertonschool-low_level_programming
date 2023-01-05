@@ -4,7 +4,7 @@
  * binary_search - searches in sorted array
  * @array: sorted array
  * @size: size of array
- * @value: The value to search 
+ * @value: The value to search
  * Return: -1.
  */
 
